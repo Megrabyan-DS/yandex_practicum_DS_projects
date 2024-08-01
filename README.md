@@ -1,2 +1,30 @@
 # yandex_practicum_DS_projects
- 
+
+Здесь собраны Data Science проекты выполненные в ходе прохождения курсов Yandex Practicum.
+
+|Название проекта|задачи|Ключевые навыки|Стек|
+|----------------|--------|---------------|----|
+|1. [Анализ поведения пользователей Yandex Music](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/01.automobile_cost)| Проверьте три гипотезы о клиентах сервиса из двух столиц.|Основы python|pandas|
+|2. [Анализ платёжеспособности клиентов банка.](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/02.bank_churn)| Оценить влияние семейного положения и количества детей на погашение кредита в срок.|Предобработка данных.|pandas|
+|3. [Исследование объявлений о продаже квартир](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/03.real_estate)| Научиться определять рыночную стоимость объектов недвижимости. | Исследовательский анализ данных. Конструирование признаков.| pandas, matplotlib, seaborn
+|4. [Проверка статистических гипотез для сервиса аренды самокатов](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/04.scooter_subscriptions)| Оценить влияние подписки на деятельность сервиса аренды самокатов. Проверить гипотезы о поведении клиентов. Оценить потенциал рекламных компаний.|Визуализация данных. Математическая статистика.| pandas, numpy, matplotlib, seaborn, scipy|
+|5. [Анализ рынка видео игр (2016 год)](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/05.successful_games) | Проверить гипотезы заказчика в отношении оценок пользователей. Дать рекомендации, по наиболее перспективным категориям игр.|Предобработка. Исследовательский анализ. Визуализация данных. Сегментация рынка. Математическая статистика.|pandas, numpy, matplotlib, seaborn, scipy, warnings|
+|6. [Рекомендация тарифов для мобильного оператора.](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/06.mobile_plans)| Построить модель, которая выберет подходящий новый тариф, на основе данных о клиентах, которые уже ими пользуются.|Машинное обучение. Классификация. LogisticRegression. RandomForest.|pandas, numpy, matplotlib, seaborn, scikit-learn, scipy|
+|7. [Отток клиентов банка](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/07.bank_churn)| Построить модель, которая прогнозирует, уйдёт клиент из банка в ближайшее время или нет.| Машинное обучение. Классификация. Устранение дисбаланса классов. |pandas, numpy, matplotlib, seaborn, scikit-learn|
+|8. [Выбор локации для нефтяной скважины](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/08.borehole_location)| Построить модель для оценки запасов нефти в трёх регионах. Выбрать регион для новой скважины, оценив возможную прибыль и риски добычи на основе предсказаний модели.| Bootstrap. Доверительные интервалы.|pandas, numpy, matplotlib, seaborn, scikit-learn|
+|9. [Восстановление золота из руды](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/09.gold_extraction)| Построить модель, которая должна предсказать коэффициент восстановления золота из золотосодержащей руды.| Определение функций. Кросс-Валидация. Построение ML модели. Подбор гиперпараметров. LinearRegression. RandomForest.| pandas, numpy, matplotlib, seaborn, scikit-learn, time|
+|10. [Защита персональных данных клиентов.](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/10.personal_encryption)| Нужно зашифровать данные, так, чтобы при преобразовании качество моделей машинного обучения не ухудшилось.|Линейная алгебра.|pandas, numpy, matplotlib, seaborn, scikit-learn|
+|11. [Прогноз стоимости автомобилей для сервиса по продаже автомобилей с пробегом](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/11.automobile_cost)| Построить ML модель, которая быстро оценивает рыночную цену автомобиля, для привлечения клиентов.|Подготовка данных к ML. Построение ML моделей. Подбор гиперпараметров. LGBM. CatBoost.|pandas, re, time, numpy, matplotlib, seaborn, scikit-learn, lightgbm, catboost, warnings|
+|12. [Прогнозирование заказов такси](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/12.taxi_calls)| Спрогнозировать количество заказов такси на следующий час.]|Обработка временного ряда. LinReg, RandomForest, LGBM.| matplotlib, seaborn, scikit-learn, lightgbm, calendar, statsmodels, os|
+|13. [Определение токсичности комментариев.](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/13.toxic_comments)| Нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.| Обработка текста. LogisticRegression, RandomForest, LGBM|pandas, re, contractions, tqdm, ntlk, matplotlib, scikit-learn, lightgbm, warnings
+|14. База Данных о венчурных фондах и инвестициях в компании-стартапы.| Проанализировать данные о фондах и инвестициях и написать запросы к базе.|Работа с БД. Заросы. CTE. Оконные функции.|PostgreSQL|
+|15. [Определение возраста покупателей.](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/15.customer_age)| Постройте модель, которая по фотографии определит приблизительный возраст человека.|Компьютерное зрение. Keras. ResNet.|pandas, numpy, pillow (PIL), tensorflow|
+|16. [Прогноз температуры сплава для металлургического комбината](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/tree/main/16.steel_temperature)| Построить ML модель, которая даст прогноз температуры стали, для снижения затрат электроэнергии/|Интерпретация и анализ данных, работа с псевдо базой данных, ML алгоритмы|pandas, numpy, matplotlib, seaborn, scikit-learn, lightgbm, catboost, shap|
+
+
+**Примечания**
+
+* В каждой папке отдельный проект в формате `Jupyter Notebook` и его `html` снимок. 
+* Помимо упомянутых, проекты дополнительно используют библиотеку `os` для загрузки данных. 
+* Версии Python и библиотек используемых в проектах доступны в файле. [python_and_libraries_versions](https://github.com/Megrabyan-DS/yandex_practicum_DS_projects/blob/main/python_and_libraries_versions.md).
+* SQL проект не представлен в портфолио, в виду особенностей его структуры.
